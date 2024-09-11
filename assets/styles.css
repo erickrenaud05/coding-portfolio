@@ -5,3 +5,10 @@
     --primaryBackgroundColor: #9AC8CD;
     /* Above is the color pallet I chose to use for my website */
 }
+
+/* setting global css */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--titleColor);
+    margin: 0;
+}
