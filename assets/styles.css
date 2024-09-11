@@ -21,3 +21,28 @@ li {
     display: inline;
     color: var(--textColor);
 }
+
+/* adding css to all sections of head */
+header section{
+    display: flex;   
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+/* using specific section id to pick the color for the header background */
+#nameNav {
+    background-color: var(--primaryBackgroundColor);
+} 
+
+#subtitle {
+    background-color: var(--secondaryBackgroundColor);
+}
+
+/* adding my avatar */
+#subtitle img {
+    height: 120px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
