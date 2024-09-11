@@ -1,0 +1,72 @@
+:root {
+    --titleColor: #1E0342;
+    --textColor: #0E46A3;
+    --secondaryBackgroundColor: #E1F7F5;
+    --primaryBackgroundColor: #9AC8CD;
+    /* Above is the color pallet I chose to use for my website */
+}
+
+/* setting global css */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--titleColor);
+    margin: 0;
+}
+
+ul { 
+    list-style-type: none;
+}
+/* all list items have same color and display type */
+li {
+    display: inline;
+    color: var(--textColor);
+}
+
+/* adding css to all sections of head */
+header section{
+    display: flex;   
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+/* using specific section id to pick the color for the header background */
+#nameNav {
+    background-color: var(--primaryBackgroundColor);
+} 
+
+#subtitle {
+    background-color: var(--secondaryBackgroundColor);
+}
+
+/* adding my avatar */
+#subtitle img {
+    height: 120px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+/* main styling */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main section {
+    display: flex;
+}
+
+section h2{
+    border-right: solid 2px black;
+    width: 25vw;
+    text-align: end;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sectionDiv {
+    width: 75vw;
+    padding: 10px;
+}
