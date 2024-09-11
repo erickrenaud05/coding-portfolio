@@ -46,3 +46,27 @@ header section{
     right: 10px;
     top: 10px;
 }
+
+/* main styling */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main section {
+    display: flex;
+}
+
+section h2{
+    border-right: solid 2px black;
+    width: 25vw;
+    text-align: end;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sectionDiv {
+    width: 75vw;
+    padding: 10px;
+}
